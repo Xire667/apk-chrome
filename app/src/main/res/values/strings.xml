@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Chrome Monitor</string>
+    <string name="service_notification_title">Chrome Monitor Activo</string>
+    <string name="service_notification_text">Monitoreando aplicaciones...</string>
+    <string name="permission_camera_rationale">Esta aplicación necesita acceso a la cámara para tomar fotos cuando se abre Chrome.</string>
+    <string name="permission_storage_rationale">Esta aplicación necesita acceso al almacenamiento para guardar las fotos capturadas.</string>
+    <string name="permission_usage_stats_rationale">Esta aplicación necesita acceso a las estadísticas de uso para detectar cuando se abre Chrome.</string>
+    <string name="permission_overlay_rationale">Esta aplicación necesita permiso para mostrarse sobre otras aplicaciones.</string>
+</resources>
