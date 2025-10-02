@@ -13,6 +13,8 @@ jobs:
       run: chmod +x gradlew
     - name: Clean Gradle cache
       run: ./gradlew clean
+    - name: Show Gradle projects
+      run: ./gradlew projects
     - name: Build APK
       run: ./gradlew :app:assembleDebug
     - name: Upload APK
