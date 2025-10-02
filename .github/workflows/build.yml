@@ -42,6 +42,15 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
       
+    - name: Show workspace structure
+      run: |
+        pwd
+        ls -l
+        ls -l app
+        ls -l app/src
+        ls -l app/src/main
+        cat settings.gradle
+        cat build.gradle
     - name: List Gradle projects
       run: ./gradlew projects
       
