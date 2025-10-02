@@ -1,3 +1,1 @@
-// ... existing code ...
-rootProject.name = "Chrome Monitor"
 include ':app'
