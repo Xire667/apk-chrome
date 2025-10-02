@@ -51,6 +51,19 @@ jobs:
         ls -l app/src/main
         cat settings.gradle
         cat build.gradle
+        cat app/build.gradle
+        cat gradle.properties
+        head -20 gradlew
+    - name: Show environment variables
+      run: env
+    - name: Show permissions
+      run: |
+        ls -l gradlew
+        ls -l gradlew.bat
+        ls -l gradle/wrapper/gradle-wrapper.jar
+        ls -l gradle/wrapper/gradle-wrapper.properties
+    - name: List Gradle tasks (all)
+      run: ./gradlew tasks --all
     - name: List Gradle projects
       run: ./gradlew projects
       
